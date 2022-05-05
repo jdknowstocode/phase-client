@@ -1,4 +1,5 @@
 import './style.css';
+import logoSrc from './img/logo.svg';
 import 'https://kit.fontawesome.com/1b793eedb9.js';
 import data from './data/data.json';
 // import { allcconsole } from 'https://violaterz.github.io/allcconsole/main.js'
@@ -7,7 +8,7 @@ const app = document.querySelector('.app');
 
 const header_HTML = `
 <div class="img-container">
-    <img src="img/logo.svg" alt="" class="logo">
+    <img src="${logoSrc}" alt="" class="logo">
     <span class="span-version">${data[0].name} ${data[0].version}</span>
 </div>
 `;
