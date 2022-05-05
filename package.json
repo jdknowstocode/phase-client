@@ -1,0 +1,17 @@
+{
+  "name": "phase-client",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.8"
+  },
+  "dependencies": {
+    "require.js": "^1.0.0"
+  }
+}
