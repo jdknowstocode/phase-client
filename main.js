@@ -13,6 +13,14 @@ const header_HTML = `
 </div>
 `;
 
+const meta_HTML = `
+<meta property="og:title" content="Download PhaseClient" />
+<meta property="og:description" content="The all new Phase Client is now available to download!" />
+<meta property="og:image" content="${logoSrc}" />
+<meta content="#1879c9" data-react-helmet="true" name="theme-color" />
+`
+
+document.head.insertAdjacentHTML('afterbegin', meta_HTML);
 app.insertAdjacentHTML('afterbegin', header_HTML);
 
 data.forEach((client) => {
@@ -29,3 +37,5 @@ data.forEach((client) => {
         window.open(client.downloadLink);
     })
 });
+ 
+console.log(logoSrc);
