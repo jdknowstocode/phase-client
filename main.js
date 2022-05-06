@@ -9,7 +9,7 @@ const app = document.querySelector('.app');
 const header_HTML = `
 <div class="img-container">
     <img src="${logoSrc}" alt="" class="logo">
-    <span class="span-version">${data[0].published ? data[0].name : data[1].name} ${data[0].version ? data[0].version : data[1].version}</span>
+    <span class="span-version">${data[0].published ? data[0].name : data[1].name} ${data[0].published ? data[0].version : data[1].version}</span>
 </div>
 `;
 
