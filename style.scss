@@ -70,6 +70,16 @@ body {
             &:focus {
                 box-shadow: 0 0 0 3px #1879c950;
             }
+            
+            &:disabled {
+                opacity: .5;
+                cursor: not-allowed;
+                // pointer-events: none;
+
+                &:hover {
+                    background: #1879c9;
+                }
+            }
         }
     }
 }

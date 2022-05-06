@@ -68,3 +68,10 @@ body {
 .app .download-container .button-download:focus {
   box-shadow: 0 0 0 3px rgba(24, 121, 201, 0.3137254902);
 }
+.app .download-container .button-download:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.app .download-container .button-download:disabled:hover {
+  background: #1879c9;
+}

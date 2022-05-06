@@ -9,23 +9,23 @@ const app = document.querySelector('.app');
 const header_HTML = `
 <div class="img-container">
     <img src="${logoSrc}" alt="" class="logo">
-    <span class="span-version">${data[0].name} ${data[0].version}</span>
+    <span class="span-version">${data[0].published ? data[0].name : data[1].name} ${data[0].version ? data[0].version : data[1].version}</span>
 </div>
 `;
 
 app.insertAdjacentHTML('afterbegin', header_HTML);
 
-data.forEach((e) => {
-    const version_class = e.version.toLowerCase().split(' ').join('-')
+data.forEach((client) => {
+    const version = client.version.toLowerCase().split(' ').join('-')
     const button_HTML = `
-    <button class="button-download ${version_class}">
-        <i class="fa-solid fa-file-zipper"></i> Download ${e.version}
+    <button class="button-download" data-version="${version}" ${!client.published ? 'title="Not released yet!"' : ''} ${!client.published ? 'disabled' : ''}>
+        <i class="fa-solid ${version.includes('beta') ? 'fa-file-zipper' : 'fa-download'}"></i> Download ${client.version}
     </button>
     `
 
     app.querySelector('.download-container').insertAdjacentHTML('beforeend', button_HTML);
 
-    app.querySelector(`.${version_class}`).addEventListener('click', () => {
-        window.open(e.downloadLink);
+    app.querySelector(`.button-download[data-version="${version}"]`).addEventListener('click', () => {
+        window.open(client.downloadLink);
     })
 });
