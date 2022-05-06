@@ -62,7 +62,7 @@ body {
         }
 
         .download-item {
-            width: 20vw;
+            width: 25vw;
             margin: 10px 10px;
             padding: 10px 10px;
             background: #171a1a;
@@ -81,6 +81,12 @@ body {
             .span-version {
                 color: white;
                 font-family: Poppins;
+            }
+
+            .span-updated {
+                color: #ffffff50;
+                font-family: Poppins;
+                margin-left: 10px;
             }
 
             .span-size {

@@ -4,6 +4,7 @@
     "gameVersions": ["1.8.9"],
     "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
     "fileSize": "0KB",
+    "lastUpdated": "2022-05-06T13:54:56.625Z",
     "published": false
 },
 {
@@ -12,6 +13,7 @@
     "gameVersions": ["1.8.9"],
     "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
     "fileSize": "16.8MB",
+    "lastUpdated": "2022-05-06T13:54:56.625Z",
     "published": true
 },
 {
@@ -20,5 +22,6 @@
     "gameVersions": ["1.8.9"],
     "downloadLink": "https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1",
     "fileSize": "14.9MB",
+    "lastUpdated": "2022-05-06T13:54:56.625Z",
     "published": true
 }]

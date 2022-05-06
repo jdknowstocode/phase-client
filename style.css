@@ -60,7 +60,7 @@ body {
   margin-bottom: 10px;
 }
 .app .download-container .download-item {
-  width: 20vw;
+  width: 25vw;
   margin: 10px 10px;
   padding: 10px 10px;
   background: #171a1a;
@@ -78,6 +78,11 @@ body {
 .app .download-container .download-item .span-version {
   color: white;
   font-family: Poppins;
+}
+.app .download-container .download-item .span-updated {
+  color: rgba(255, 255, 255, 0.3137254902);
+  font-family: Poppins;
+  margin-left: 10px;
 }
 .app .download-container .download-item .span-size {
   color: rgba(255, 255, 255, 0.3137254902);
