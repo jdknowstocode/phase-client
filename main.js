@@ -2,6 +2,7 @@ import './style.css';
 import logoSrc from './img/logo.svg';
 import 'https://kit.fontawesome.com/1b793eedb9.js';
 import data from './data/data.json';
+
 // import { allcconsole } from 'https://violaterz.github.io/allcconsole/main.js'
 
 const app = document.querySelector('.app');
@@ -25,17 +26,22 @@ app.insertAdjacentHTML('afterbegin', header_HTML);
 
 data.forEach((client) => {
     const version = client.version.toLowerCase().split(' ').join('-')
-    const button_HTML = `
-    <button class="button-download" data-version="${version}" ${!client.published ? 'title="Not released yet!"' : ''} ${!client.published ? 'disabled' : ''}>
-        <i class="fa-solid ${version.includes('beta') ? 'fa-file-zipper' : 'fa-download'}"></i> Download ${client.version}
-    </button>
+    const list_HTML = `
+    <div class="download-item">
+        <i class="fa-solid fa-file-zipper file-icon"></i>
+        <span class="span-version">${client.name} ${client.version}</span>
+        <span class="span-size">${client.fileSize}</span>
+        <button class="button-download" data-version="${version}" ${!client.published ? 'disabled' : ''} ${!client.published ? 'title="Not yet released!"' : ''}>
+            <i class="fa-solid fa-cloud-arrow-down"></i> Download
+        </button>
+    </div>
     `
 
-    app.querySelector('.download-container').insertAdjacentHTML('beforeend', button_HTML);
-
+    app.querySelector('.download-container').insertAdjacentHTML('beforeend', list_HTML);
+    
     app.querySelector(`.button-download[data-version="${version}"]`).addEventListener('click', () => {
         window.open(client.downloadLink);
     })
 });
- 
-console.log(logoSrc);
+
+app.querySelector('.download-container').insertAdjacentHTML('beforeend', `<span class="span-credit">Powered by <i class="fa-brands fa-dropbox"></i> Dropbox</span>`);

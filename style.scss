@@ -48,37 +48,86 @@ body {
         border-radius: 10px;
         box-shadow: 0 0 20px #00000050;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin-top: 50px;
 
-        .button-download {
-            padding: 10px 20px;
-            border: 0;
-            outline: 0;
-            margin: 5px 10px;
-            border-radius: 5px;
-            font-size: 15px;
+        .span-header {
             color: white;
-            background: #1879c9;
-            transition: 180ms;
-            cursor: pointer;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
 
-            &:hover {
-                background: #1a87e0;
-            }
-
-            &:focus {
-                box-shadow: 0 0 0 3px #1879c950;
-            }
+        .download-item {
+            width: 20vw;
+            margin: 10px 10px;
+            padding: 10px 10px;
+            background: #171a1a;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
             
-            &:disabled {
-                opacity: .5;
-                cursor: not-allowed;
-                // pointer-events: none;
+            .file-icon {
+                color: white;
+                font-size: 20px;
+                margin: 0 10px;
+            }
 
+            .span-version {
+                color: white;
+                font-family: Poppins;
+            }
+
+            .span-size {
+                color: #ffffff50;
+                font-family: Poppins;
+                margin-left: auto;
+                margin-right: 10px;
+            }
+
+            .button-download {
+                padding: 10px 20px;
+                border: 0;
+                outline: 0;
+                margin: 5px 10px;
+                border-radius: 5px;
+                font-size: 15px;
+                color: white;
+                background: #1879c9;
+                transition: 180ms;
+                cursor: pointer;
+    
                 &:hover {
-                    background: #1879c9;
+                    background: #1a87e0;
                 }
+    
+                &:focus {
+                    box-shadow: 0 0 0 3px #1879c950;
+                }
+                
+                &:disabled {
+                    opacity: .5;
+                    cursor: not-allowed;
+                    // pointer-events: none;
+    
+                    &:hover {
+                        background: #1879c9;
+                    }
+                }
+            }
+        }
+
+        .span-credit {
+            color: #ffffff50;
+            font-family: Poppins;
+
+            i {
+                color: #0060FF;
             }
         }
     }
