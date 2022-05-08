@@ -47,9 +47,10 @@ data.forEach((client) => {
 
     const list_HTML = `
     <div class="download-item">
-        <i class="fa-solid fa-file-zipper file-icon"></i>
+        <i class="fa-solid fa-file${client.fileType == 'zip' ? '-zipper' : ''} file-icon"></i>
         <span class="span-version">${client.name} ${client.version}</span>
         <span class="span-updated">Last Updated ${formatDate(new Date(client.lastUpdated), 'en-UK')}</span>
+        <!-- <span class="span-type">${client.fileType}</span> -->
         <span class="span-size">${client.fileSize}</span>
         <button class="button-download" data-version="${version}" ${!client.published ? 'disabled' : ''} ${!client.published ? 'title="Not yet released!"' : ''}>
             <i class="fa-solid fa-cloud-arrow-down"></i> Download
