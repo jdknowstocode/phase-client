@@ -1,30 +1,35 @@
-[{
-    "name": "PhaseLauncher",
-    "version": "v0.1.0",
-    "gameVersions": ["1.8.9"],
-    "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
-    "fileSize": "0KB",
-    "fileType": "exe",
-    "lastUpdated": "2022-05-08T12:10:23.074Z",
-    "published": false
-},
-{
-    "name": "PhaseClient",
-    "version": "BETA 3",
-    "gameVersions": ["1.8.9"],
-    "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
-    "fileSize": "16.8MB",
-    "fileType": "zip",
-    "lastUpdated": "2021-11-06T18:30:00.000Z",
-    "published": true
-},
-{
-    "name": "PhaseClient",
-    "version": "BETA 2",
-    "gameVersions": ["1.8.9"],
-    "downloadLink": "https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1",
-    "fileSize": "14.9MB",
-    "fileType": "zip",
-    "lastUpdated": "2021-08-31T18:30:00.000Z",
-    "published": true
-}]
+[
+    {
+        "name": "PhaseLauncher",
+        "version": "v0.1.0",
+        "gameVersions": ["1.8.9"],
+        "downloadLink": "",
+        "fileSize": "0KB",
+        "fileType": "exe",
+        "downloads": 0,
+        "lastUpdated": "2022-05-08T12:10:23.074Z",
+        "published": false
+    },
+    {
+        "name": "PhaseClient",
+        "version": "BETA 3",
+        "gameVersions": ["1.8.9"],
+        "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
+        "fileSize": "16.8MB",
+        "fileType": "zip",
+        "downloads": 0,
+        "lastUpdated": "2021-11-06T18:30:00.000Z",
+        "published": true
+    },
+    {
+        "name": "PhaseClient",
+        "version": "BETA 2",
+        "gameVersions": ["1.8.9"],
+        "downloadLink": "https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1",
+        "fileSize": "14.9MB",
+        "fileType": "zip",
+        "downloads": 0,
+        "lastUpdated": "2021-08-31T18:30:00.000Z",
+        "published": true
+    }
+]

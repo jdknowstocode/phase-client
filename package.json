@@ -12,6 +12,7 @@
     "vite": "^2.7.0-beta.10"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "require.js": "^1.0.0",
     "vite-plugin-fs": "^1.0.0-beta.3"
   }

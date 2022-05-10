@@ -84,6 +84,11 @@ body {
   font-family: Poppins;
   margin-left: 10px;
 }
+.app .download-container .download-item .span-downloads {
+  color: rgba(255, 255, 255, 0.1450980392);
+  font-family: Poppins;
+  margin-left: 10px;
+}
 .app .download-container .download-item .span-size {
   color: rgba(255, 255, 255, 0.3137254902);
   font-family: Poppins;
