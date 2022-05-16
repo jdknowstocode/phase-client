@@ -2,7 +2,6 @@ import './style.css';
 import logoSrc from './img/logo.svg';
 import './fontawesome';
 import data from './data/data.json';
-import fs from 'vite-plugin-fs/browser';
 
 // import { allcconsole } from 'https://violaterz.github.io/allcconsole/main.js'
 
