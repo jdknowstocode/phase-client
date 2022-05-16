@@ -3,12 +3,12 @@
         "name": "PhaseLauncher",
         "version": "v0.1.0",
         "gameVersions": ["1.8.9"],
-        "downloadLink": "",
-        "fileSize": "0KB",
+        "downloadLink": "https://www.dropbox.com/s/hhc9k5vbmq9194a/phaselauncher-v1-0-0.exe?dl=0",
+        "fileSize": "61.6MB",
         "fileType": "exe",
         "downloads": 0,
         "lastUpdated": "2022-05-08T12:10:23.074Z",
-        "published": false
+        "published": true
     },
     {
         "name": "PhaseClient",
