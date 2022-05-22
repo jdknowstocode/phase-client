@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'panton-black-caps', sans-serif;
 }
 .app .img-container .logo {
   width: 100px;
