@@ -10,7 +10,7 @@ const app = document.querySelector('.app');
 const header_HTML = `
 <div class="img-container">
     <img src="${logoSrc}" alt="" class="logo">
-    <span class="span-version">Phase Client BETA 4</span>
+    <span class="span-version">Phase Client</span>
 </div>
 `;
 

@@ -1,7 +1,7 @@
 [
     {
-        "name": "PhaseLauncher",
-        "version": "v0.1.0 + BETA 4",
+        "name": "Phase Client",
+        "version": "BETA 4 Launcher",
         "gameVersions": ["1.8.9"],
         "downloadLink": "https://www.dropbox.com/s/hhc9k5vbmq9194a/phaselauncher-v1-0-0.exe?dl=1",
         "fileSize": "61.6MB",
@@ -11,7 +11,7 @@
         "published": true
     },
     {
-        "name": "PhaseClient",
+        "name": "Phase Client",
         "version": "BETA 3",
         "gameVersions": ["1.8.9"],
         "downloadLink": "https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1",
@@ -22,7 +22,7 @@
         "published": true
     },
     {
-        "name": "PhaseClient",
+        "name": "Phase Client",
         "version": "BETA 2",
         "gameVersions": ["1.8.9"],
         "downloadLink": "https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1",
