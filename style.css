@@ -29,7 +29,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'panton-black-caps', sans-serif;
 }
 .app .img-container .logo {
   width: 100px;
@@ -37,7 +36,6 @@ body {
 }
 .app .img-container .span-version {
   color: white;
-  font-family: Poppins;
   font-weight: 600;
   font-size: 40px;
   margin-left: 20px;
