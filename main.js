@@ -1,5 +1,5 @@
 import './style.css';
-import logoSrc from './img/logo.svg';
+import logoSrc from './img/logo.png';
 import './fontawesome';
 import data from './data/data.json';
 
