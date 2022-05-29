@@ -1,19 +1,11 @@
 {
   "name": "phase-client",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Phase Client official website",
   "main": "main.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "vite": "^2.9.9"
-  },
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "require.js": "^1.0.0",
-    "vite-plugin-fs": "^1.0.0-beta.3"
-  }
+  "author": "ViolaterZ and VojtasCz",
+  "license": "ISC"
 }
