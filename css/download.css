@@ -136,13 +136,13 @@ button:focus {
     height: 75vh;
     border-radius: 10px;
     font-family: "Panton";
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .content .container p {
     padding: 5px;
     background: var(--green-bg);
-    color: var(--green);
+    color: rgb(66, 180, 0);
     border: 1px solid var(--green);
 }
 

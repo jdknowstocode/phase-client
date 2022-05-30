@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/panton-black-caps');
+
+:root {
+    --theme: #2e86d8;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 5vh;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.title {
+    color: white;
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Panton", sans-serif;
+    font-family: "Panton Narrow", sans-serif;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 12.5px;
+    position: relative;
+    font-family: "Panton", sans-serif;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: var(--theme);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.content .container {
+    font-size: 70px;
+    font-family: "Panton", sans-serif;
+    font-family: "Panton Narrow", sans-serif;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: "Trebuchet MS";
+}
