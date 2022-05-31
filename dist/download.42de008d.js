@@ -524,7 +524,7 @@ const appHTML = `
 `;
 app.insertAdjacentHTML("beforeend", appHTML);
 
-},{"../utils/fontawesome":"i0R72","../css/download.css":"29Jh3","@parcel/transformer-js/src/esmodule-helpers.js":"bUXK7","../data/data.json":"9Avoh"}],"i0R72":[function(require,module,exports) {
+},{"../css/download.css":"29Jh3","../utils/fontawesome":"i0R72","../data/data.json":"9Avoh","@parcel/transformer-js/src/esmodule-helpers.js":"bUXK7"}],"29Jh3":[function() {},{}],"i0R72":[function(require,module,exports) {
 var global = arguments[3];
 window.FontAwesomeKitConfig = {
     asyncLoading: {
@@ -970,7 +970,10 @@ window.FontAwesomeKitConfig = {
     }
 });
 
-},{}],"29Jh3":[function() {},{}],"bUXK7":[function(require,module,exports) {
+},{}],"9Avoh":[function(require,module,exports) {
+module.exports = JSON.parse('[{"name":"Phase Client","version":"Launcher + BETA 4","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/yl9jctru3kxu7qa/phase-launcher-0.1.1.exe?dl=1","fileSize":"61.6MB","fileType":"exe","downloads":0,"lastUpdated":"2022-05-16T08:53:25.677Z","published":true},{"name":"Phase Client","version":"BETA 3","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1","fileSize":"16.8MB","fileType":"zip","downloads":0,"lastUpdated":"2021-11-06T18:30:00.000Z","published":true},{"name":"Phase Client","version":"BETA 2","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1","fileSize":"14.9MB","fileType":"zip","downloads":0,"lastUpdated":"2021-08-31T18:30:00.000Z","published":true}]');
+
+},{}],"bUXK7":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -999,9 +1002,6 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
-
-},{}],"9Avoh":[function(require,module,exports) {
-module.exports = JSON.parse('[{"name":"Phase Client","version":"Launcher + BETA 4","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/hhc9k5vbmq9194a/phaselauncher-v1-0-0.exe?dl=1","fileSize":"61.6MB","fileType":"exe","downloads":0,"lastUpdated":"2022-05-16T08:53:25.677Z","published":true},{"name":"Phase Client","version":"BETA 3","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/xll5crll0iis8aw/phaseclient-beta3.zip?dl=1","fileSize":"16.8MB","fileType":"zip","downloads":0,"lastUpdated":"2021-11-06T18:30:00.000Z","published":true},{"name":"Phase Client","version":"BETA 2","gameVersions":["1.8.9"],"downloadLink":"https://www.dropbox.com/s/ybflu2kqar6rie0/phaseclient-beta2.zip?dl=1","fileSize":"14.9MB","fileType":"zip","downloads":0,"lastUpdated":"2021-08-31T18:30:00.000Z","published":true}]');
 
 },{}]},["17gQt","eLYMJ"], "eLYMJ", "parcelRequire94c2")
 
