@@ -127,13 +127,13 @@ button:focus {
     box-shadow: 0 0 0 3px #2e86d850;
 }
 
-.fa-brands {
-    font-family: "Font Awesome 6 Brands";
-    font-weight: 400;
+.fa-brands, .fa-windows {
     -webkit-font-smoothing: antialiased;
-    display: var(--fa-display,inline-block);
-    font-style: normal;
+    display: var(--fa-display, inline-block);
     font-variant: normal;
-    line-height: 1;
     text-rendering: auto;
-}
+    font-family: "Font Awesome 6 Brands";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+  }
