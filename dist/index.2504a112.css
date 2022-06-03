@@ -87,6 +87,11 @@
   display: flex;
 }
 
+.biglogo {
+  text-align: center;
+  margin-bottom: -75px;
+}
+
 .content h1 {
   margin-top: 80px;
   font-family: Panton Narrow, sans-serif;
