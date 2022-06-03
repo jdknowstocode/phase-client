@@ -90,7 +90,10 @@
 .content .container {
   margin-bottom: 800px;
   font-family: Panton Narrow, sans-serif;
-  font-size: 70px;
+}
+
+.content h1 {
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=staff.ef34972d.css.map */

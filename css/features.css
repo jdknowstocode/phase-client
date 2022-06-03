@@ -91,15 +91,12 @@
 }
 
 .content .container {
-    font-size: 70px;
-    margin-bottom: 650px;
+    font-size: 30px;
+    margin-bottom: 700px;
     font-family: "Panton", sans-serif;
     font-family: "Panton Narrow", sans-serif;
 }
 
-.content p {
-    margin: 20px auto;
-    font-size: 40;
-    line-height: 25px;
-    font-family: "Trebuchet MS";
+.content h1 {
+    font-size: 60px;
 }

@@ -88,16 +88,13 @@
 }
 
 .content .container {
-  margin-bottom: 650px;
+  margin-bottom: 700px;
   font-family: Panton Narrow, sans-serif;
-  font-size: 70px;
+  font-size: 30px;
 }
 
-.content p {
-  margin: 20px auto;
-  font-family: Trebuchet MS;
-  font-size: 40px;
-  line-height: 25px;
+.content h1 {
+  font-size: 60px;
 }
 
 /*# sourceMappingURL=features.6525e6a8.css.map */
