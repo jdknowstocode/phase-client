@@ -127,4 +127,45 @@ button:focus {
   box-shadow: 0 0 0 3px #2e86d850;
 }
 
+@media (max-width: 700px) {
+  .title, .logo {
+    display: none;
+  }
+
+  .navbar {
+    word-spacing: -50px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 413px) {
+  .title, .logo {
+    display: none;
+  }
+
+  .navbar ul li {
+    margin: 0 15px;
+    font-family: Panton, sans-serif;
+    font-size: 12.5px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+@media (max-width: 280px) {
+  .title, .logo {
+    display: none;
+  }
+
+  .navbar ul li {
+    margin: 0 7px;
+    font-family: Panton, sans-serif;
+    font-size: 12.5px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+}
+
 /*# sourceMappingURL=index.2504a112.css.map */
