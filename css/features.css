@@ -102,7 +102,7 @@
     font-size: 60px;
 }
 
-#clean-mod-menu {
+#slick-main-menu {
     border-radius: 25px;
     width: 500px;
     height: 350px;
@@ -111,8 +111,8 @@
     margin: 10px -80;
 }
 
-.mod-menu {
-    border-radius: 20px; 
+.main-menu {
+    border-radius: 10px; 
 }
 
 @media(max-width: 700px) {
