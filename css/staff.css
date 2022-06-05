@@ -98,3 +98,58 @@
 .content h1 {
     font-size: 50px;
 }
+
+@media(max-width: 700px) {
+
+    .title {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;    
+        word-spacing: -50px;
+    }
+}
+
+@media(max-width: 413px) {
+    
+    .title {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 12.5px;
+        position: relative;
+        font-family: "Panton", sans-serif;
+    }
+}
+
+@media(max-width: 334px) {
+    .title {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 7px;
+        font-size: 12.5px;
+        position: relative;
+        font-family: "Panton", sans-serif;
+    }    
+}

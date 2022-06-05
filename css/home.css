@@ -168,7 +168,7 @@ button:focus {
     }
 }
 
-@media(max-width: 280px) {
+@media(max-width: 334px) {
     .title {
         display: none;
     }
