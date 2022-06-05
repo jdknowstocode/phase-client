@@ -110,6 +110,19 @@
   border-radius: 10px;
 }
 
+#clean-mod-menu {
+  width: 500px;
+  height: 350px;
+  background-color: #1f1f1f;
+  border-radius: 25px;
+  margin: 10px -80px 10px 500px;
+  position: absolute;
+}
+
+.mod-menu {
+  border-radius: 10px;
+}
+
 @media (max-width: 700px) {
   .title, .logo {
     display: none;
