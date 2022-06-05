@@ -83,12 +83,12 @@
   color: #fff;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   display: flex;
 }
 
 .content .container {
   margin-bottom: 700px;
+  margin-left: 30px;
   font-family: Panton Narrow, sans-serif;
   font-size: 30px;
 }
