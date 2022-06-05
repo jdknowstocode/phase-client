@@ -97,6 +97,17 @@
   font-size: 60px;
 }
 
+#clean-mod-menu {
+  width: 500px;
+  height: 350px;
+  background-color: #1f1f1f;
+  border-radius: 25px;
+}
+
+.mod-menu {
+  border-radius: 20px;
+}
+
 @media (max-width: 700px) {
   .title, .logo {
     display: none;
