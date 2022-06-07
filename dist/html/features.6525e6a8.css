@@ -123,6 +123,23 @@
   border-radius: 10px;
 }
 
+#fps-boost {
+  width: 500px;
+  height: 350px;
+  background-color: #1f1f1f;
+  border-radius: 25px;
+  margin: 10px -80px 10px 1100px;
+  position: absolute;
+}
+
+.fps-boost {
+  border-radius: 10px;
+}
+
+.fps {
+  font-family: Trebuchet MS;
+}
+
 @media (max-width: 700px) {
   .title, .logo {
     display: none;

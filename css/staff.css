@@ -1,155 +1,152 @@
-@import url('http://fonts.cdnfonts.com/css/panton-black-caps');
+@import url("http://fonts.cdnfonts.com/css/panton-black-caps");
 
 :root {
-    --theme: #2e86d8;
+  --theme: #2e86d8;
 }
 
-
 * {
-    padding: 0;
-    margin: 0;
-    user-select: none;
+  padding: 0;
+  margin: 0;
+  user-select: none;
 }
 
 #app {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../assets/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .navbar {
-    width: 100vw;
-    height: 5vh;
-    margin: auto;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
+  width: 100vw;
+  height: 5vh;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
 }
 
 .logo {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin-left: 25px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 25px;
 }
 
 .title {
-    color: white;
-    margin-right: auto;
-    margin-left: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Panton", sans-serif;
-    font-family: "Panton Narrow", sans-serif;
+  color: white;
+  margin-right: auto;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;
 }
 
 .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 25px;
-    font-size: 12.5px;
-    position: relative;
-    font-family: "Panton", sans-serif;
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 12.5px;
+  position: relative;
+  font-family: "Panton", sans-serif;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
 
 .navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0;
-    background: var(--theme);
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
+  content: "";
+  height: 3px;
+  width: 0;
+  background: var(--theme);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .content {
-    width: 100vw;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-    text-align: center;
-    color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .content .container {
-    margin-bottom: 800px;
-    font-family: "Panton", sans-serif;
-    font-family: "Panton Narrow", sans-serif;
+  margin-bottom: 800px;
+  font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;
 }
 .content h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
+  .title {
+    display: none;
+  }
 
-    .title {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .logo {
-        display: none;
-    }
-
-    .navbar {
-        justify-content: center;    
-        word-spacing: -50px;
-    }
+  .navbar {
+    justify-content: center;
+    word-spacing: -50px;
+  }
 }
 
-@media(max-width: 413px) {
-    
-    .title {
-        display: none;
-    }
+@media (max-width: 413px) {
+  .title {
+    display: none;
+  }
 
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .navbar ul li {
-        list-style: none;
-        display: inline-block;
-        margin: 0 15px;
-        font-size: 12.5px;
-        position: relative;
-        font-family: "Panton", sans-serif;
-    }
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 12.5px;
+    position: relative;
+    font-family: "Panton", sans-serif;
+  }
 }
 
-@media(max-width: 334px) {
-    .title {
-        display: none;
-    }
+@media (max-width: 334px) {
+  .title {
+    display: none;
+  }
 
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .navbar ul li {
-        list-style: none;
-        display: inline-block;
-        margin: 0 7px;
-        font-size: 12.5px;
-        position: relative;
-        font-family: "Panton", sans-serif;
-    }    
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 7px;
+    font-size: 12.5px;
+    position: relative;
+    font-family: "Panton", sans-serif;
+  }
 }
