@@ -135,6 +135,7 @@
     height: 350px;
     background-color: rgb(31, 31, 31);
     position: absolute;
+    text-align: center;
     margin: 10px -80;  
     margin-left: 1120px;    
 }
