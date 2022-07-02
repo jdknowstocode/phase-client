@@ -127,6 +127,36 @@ button:focus {
   box-shadow: 0 0 0 3px #2e86d850;
 }
 
+.how-to-download {
+  text-align: center;
+  background-color: #000;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.how-to-download h1 {
+  color: #fff;
+  font-family: Panton Narrow, sans-serif;
+}
+
+#first {
+  color: #fff;
+  padding-left: 83%;
+  font-family: Trebuchet MS;
+}
+
+#second {
+  color: #fff;
+  margin-top: -15px;
+  padding-right: 87%;
+  font-family: Trebuchet MS;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @media (max-width: 700px) {
   .title, .logo {
     display: none;
