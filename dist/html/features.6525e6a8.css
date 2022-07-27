@@ -1,4 +1,9 @@
 @import "http://fonts.cdnfonts.com/css/panton-black-caps";
+@font-face {
+  font-family: Panton1;
+  src: url("../PantonNarrowDemoBlack.4854913a.otf");
+}
+
 :root {
   --theme: #2e86d8;
 }
@@ -41,13 +46,13 @@
   cursor: pointer;
   margin-left: 10px;
   margin-right: auto;
-  font-family: Panton Narrow, sans-serif;
+  font-family: Panton1, sans-serif;
   font-size: 20px;
 }
 
 .navbar ul li {
   margin: 0 25px;
-  font-family: Panton, sans-serif;
+  font-family: Panton1, sans-serif;
   font-size: 12.5px;
   list-style: none;
   display: inline-block;
@@ -89,7 +94,7 @@
 .content .container {
   margin-bottom: 700px;
   margin-left: 30px;
-  font-family: Panton Narrow, sans-serif;
+  font-family: Panton1, sans-serif;
   font-size: 30px;
 }
 
@@ -165,7 +170,7 @@
 
   .navbar ul li {
     margin: 0 15px;
-    font-family: Panton, sans-serif;
+    font-family: Panton1, sans-serif;
     font-size: 12.5px;
     list-style: none;
     display: inline-block;
@@ -180,7 +185,7 @@
 
   .navbar ul li {
     margin: 0 7px;
-    font-family: Panton, sans-serif;
+    font-family: Panton1, sans-serif;
     font-size: 12.5px;
     list-style: none;
     display: inline-block;

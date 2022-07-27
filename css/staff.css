@@ -1,4 +1,8 @@
 @import url("http://fonts.cdnfonts.com/css/panton-black-caps");
+@font-face {
+  font-family: 'Panton1';
+  src: url(/fonts/PantonNarrowDemoBlack.otf);
+}
 
 :root {
   --theme: #2e86d8;
@@ -43,8 +47,9 @@
   margin-left: 10px;
   cursor: pointer;
   font-size: 20px;
-  font-family: "Panton", sans-serif;
-  font-family: "Panton Narrow", sans-serif;
+  font-family: "Panton1", sans-serif;
+  /*font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;*/
 }
 
 .navbar ul li {
@@ -53,7 +58,8 @@
   margin: 0 25px;
   font-size: 12.5px;
   position: relative;
-  font-family: "Panton", sans-serif;
+  font-family: "Panton1", sans-serif;
+  /*font-family: "Panton", sans-serif;*/
 }
 
 .navbar ul li a {
@@ -91,8 +97,9 @@
 
 .content .container {
   margin-bottom: 800px;
-  font-family: "Panton", sans-serif;
-  font-family: "Panton Narrow", sans-serif;
+  font-family: "Panton1", sans-serif;
+  /*font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;*/
 }
 .content h1 {
   font-size: 50px;
@@ -128,7 +135,8 @@
     margin: 0 15px;
     font-size: 12.5px;
     position: relative;
-    font-family: "Panton", sans-serif;
+    font-family: "Panton1", sans-serif;
+    /*font-family: "Panton", sans-serif;*/
   }
 }
 
@@ -147,6 +155,7 @@
     margin: 0 7px;
     font-size: 12.5px;
     position: relative;
-    font-family: "Panton", sans-serif;
+    font-family: "Panton1", sans-serif;
+    /*font-family: "Panton", sans-serif;*/
   }
 }
