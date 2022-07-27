@@ -1,7 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/panton-black-caps");
 @font-face {
   font-family: 'Panton2';
-  src: url(/fonts/TheNextFont.ttf);
+  src: url(/fonts/PantonNarrowDemoBlack.otf);
 }
 
 :root {
@@ -47,8 +47,9 @@
   margin-left: 10px;
   cursor: pointer;
   font-size: 20px;
-  font-family: "Panton", sans-serif;
-  font-family: "Panton Narrow", sans-serif;
+  font-family: "Panton2", sans-serif;
+  /*font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;*/
 }
 
 .navbar ul li {
