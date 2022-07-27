@@ -136,7 +136,7 @@ button:focus {
   height: 75vh;
   color: #fff;
   border-radius: 10px;
-  font-family: Panton;
+  font-family: Panton1, sans-serif;
 }
 
 .content .container p {
