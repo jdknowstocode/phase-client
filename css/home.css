@@ -47,9 +47,8 @@
   margin-left: 10px;
   cursor: pointer;
   font-size: 20px;
-  font-family: "Panton2", sans-serif;
-  /*font-family: "Panton", sans-serif;
-  font-family: "Panton Narrow", sans-serif;*/
+  font-family: "Panton", sans-serif;
+  font-family: "Panton Narrow", sans-serif;
 }
 
 .navbar ul li {
