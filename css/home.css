@@ -153,6 +153,10 @@ button:focus {
   font-family: "Panton Narrow", sans-serif;*/
 }
 
+.how-to-download iframe {
+  border-radius: 10px;
+}
+
 #first {
   color: white;
   padding-left: 83%;
